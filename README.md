@@ -26,7 +26,7 @@ X, _ = make_blobs(n_samples=300, centers=4, random_state=42)
 Z = AgglomerativeClustering(n_clusters=None,distance_threshold=0, linkage="ward")
 Z.fit(X)
 
-model = FOSCX(top_M=5)
+model = FOSCX(top_M=5, kmin=2, kmax=10, quality_measure="Stability")
 model.fit(Z)
 print(model.candidates_)
 ```
