@@ -1,6 +1,6 @@
 # FOSCX
 
-Framework for Optimal Selection of Clusters (FOSCX) from hierarchical cluster trees.
+FOSC-X: An Extended Framework for Optimal Local Cuts and Non-Horizontal Flattening of Clustering Hierarchies
 
 ## Install from GitHub
 
